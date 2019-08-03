@@ -1,5 +1,6 @@
 ﻿using System;
 using MongoDB.Driver;
+using MontoDBRepository.RepositoryLayer;
 
 namespace MontoDBRepository
 {
@@ -7,16 +8,19 @@ namespace MontoDBRepository
     {
         static void Main(string[] args)
         {
-            var client = new MongoClient(
-                "mongodb://localhost:27017"
-            );
-            var database = client.GetDatabase("developersdb00");
+            var alunoRepository =
+                new AlunoRepository(
+                    "mongodb://localhost:27017", "escola");
 
-            var collection = database.GetCollection<Aluno>("escola");
+            alunoRepository.Insert(new Aluno()
+                {Matricula = "123", Nome = "ABC"});
 
-            collection.InsertOne(new Aluno{ Matricula = "121", Nome = "sdssd" });
+            var alunos = alunoRepository.QueryAll();
 
-            Console.WriteLine("Hello World!");
+            foreach (var aluno in alunos)
+            {
+                Console.WriteLine($"{aluno.Matricula} - {aluno.Nome}");
+            }
         }
     }
 }

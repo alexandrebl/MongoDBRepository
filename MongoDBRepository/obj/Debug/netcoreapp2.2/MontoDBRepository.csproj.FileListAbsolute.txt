@@ -8,3 +8,4 @@ C:\repository\git\MongoDBRepository\MongoDBRepository\obj\Debug\netcoreapp2.2\Mo
 C:\repository\git\MongoDBRepository\MongoDBRepository\obj\Debug\netcoreapp2.2\MontoDBRepository.AssemblyInfo.cs
 C:\repository\git\MongoDBRepository\MongoDBRepository\obj\Debug\netcoreapp2.2\MontoDBRepository.dll
 C:\repository\git\MongoDBRepository\MongoDBRepository\obj\Debug\netcoreapp2.2\MontoDBRepository.pdb
+C:\repository\git\MongoDBRepository\MongoDBRepository\obj\Debug\netcoreapp2.2\MontoDBRepository.csprojAssemblyReference.cache

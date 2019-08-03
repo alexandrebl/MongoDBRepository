@@ -18,7 +18,7 @@ namespace MontoDBRepository.RepositoryLayer
                 .GetDataBase(_databaseName)
                     .GetCollection<T>(nameof(T));
 
-            var data = collection.AsQueryable().ToList();
+            var data = collection?.AsQueryable()?.ToList();
 
             return data;
         }
