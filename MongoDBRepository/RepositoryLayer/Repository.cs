@@ -1,9 +1,7 @@
 ﻿using System.Collections.Generic;
 using MongoDB.Driver;
-using MongoDBRepository.RepositoryLayer.Context;
-using MongoDBRepository.RepositoryLayer.Interfaces;
 
-namespace MongoDBRepository.RepositoryLayer.Base
+namespace MontoDBRepository.RepositoryLayer
 {
     public abstract class Repository<T> : IRepository<T>
     {
@@ -29,7 +27,7 @@ namespace MongoDBRepository.RepositoryLayer.Base
         {
             var collection = _connectionFactory
                 .GetDataBase(_databaseName)
-                .GetCollection<T>(typeof(T).Name);
+                .GetCollection<T>(nameof(T));
 
             collection.InsertOne(obj);
 

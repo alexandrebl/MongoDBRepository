@@ -1,0 +1,10 @@
+C:\repository\git\MongoDBRepository\MongoDBRepository\bin\Debug\netcoreapp2.2\MontoDBRepository.deps.json
+C:\repository\git\MongoDBRepository\MongoDBRepository\bin\Debug\netcoreapp2.2\MontoDBRepository.runtimeconfig.json
+C:\repository\git\MongoDBRepository\MongoDBRepository\bin\Debug\netcoreapp2.2\MontoDBRepository.runtimeconfig.dev.json
+C:\repository\git\MongoDBRepository\MongoDBRepository\bin\Debug\netcoreapp2.2\MontoDBRepository.dll
+C:\repository\git\MongoDBRepository\MongoDBRepository\bin\Debug\netcoreapp2.2\MontoDBRepository.pdb
+C:\repository\git\MongoDBRepository\MongoDBRepository\obj\Debug\netcoreapp2.2\MontoDBRepository.csproj.CoreCompileInputs.cache
+C:\repository\git\MongoDBRepository\MongoDBRepository\obj\Debug\netcoreapp2.2\MontoDBRepository.AssemblyInfoInputs.cache
+C:\repository\git\MongoDBRepository\MongoDBRepository\obj\Debug\netcoreapp2.2\MontoDBRepository.AssemblyInfo.cs
+C:\repository\git\MongoDBRepository\MongoDBRepository\obj\Debug\netcoreapp2.2\MontoDBRepository.dll
+C:\repository\git\MongoDBRepository\MongoDBRepository\obj\Debug\netcoreapp2.2\MontoDBRepository.pdb

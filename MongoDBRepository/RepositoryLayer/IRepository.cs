@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace MongoDBRepository.RepositoryLayer.Interfaces
+namespace MontoDBRepository.RepositoryLayer
 {
     public interface IRepository<T>
     {

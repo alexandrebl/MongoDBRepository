@@ -1,6 +1,6 @@
 ﻿using MongoDB.Driver;
 
-namespace MongoDBRepository.RepositoryLayer.Context
+namespace MontoDBRepository.RepositoryLayer
 {
     public class ConnectionFactory
     {
