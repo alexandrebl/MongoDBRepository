@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Runtime.CompilerServices;
-using System.Text;
-using MongoDB.Driver;
+﻿using MongoDB.Driver;
 
-namespace ConsoleApp2.RepositoryLayer
+namespace MongoDBRepository.RepositoryLayer.Context
 {
     public class ConnectionFactory
     {

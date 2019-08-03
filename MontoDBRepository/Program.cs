@@ -1,23 +1,25 @@
 ﻿using System;
-using MongoDB.Bson;
-using MongoDB.Driver;
+using MongoDBRepository.Domain;
+using MongoDBRepository.RepositoryLayer;
 
-namespace ConsoleApp2
+namespace MongoDBRepository
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var client = new MongoClient(
-                "mongodb://localhost:27017"
-            );
-            var database = client.GetDatabase("developersdb00");
+            var connectionString = "mongodb://localhost:27017";
 
-            var collection = database.GetCollection<Aluno>("escola");
+            var alunoRepository = new AlunoRepository(connectionString, "escola");
 
-            collection.InsertOne(new Aluno{ Matricula = "121", Nome = "sdssd" });
+            alunoRepository.Insert(new Aluno {Matricula = "1212213", Nome ="AAAA"});
 
-            Console.WriteLine("Hello World!");
+            var alunos = alunoRepository.QueryAll();
+
+            foreach (var aluno in alunos)
+            {
+                Console.WriteLine($"{aluno.Nome}, matricula: {aluno.Matricula}");
+            }
         }
     }
 }

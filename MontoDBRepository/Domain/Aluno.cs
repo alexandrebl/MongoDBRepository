@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using MongoDB.Bson.Serialization.Attributes;
 
-namespace ConsoleApp2
+namespace MongoDBRepository.Domain
 {
+    [BsonIgnoreExtraElements]
     public sealed class Aluno
     {
         public string Matricula { get; set; }

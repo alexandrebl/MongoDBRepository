@@ -1,8 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using MongoDB.Driver;
+using MongoDBRepository.RepositoryLayer.Context;
+using MongoDBRepository.RepositoryLayer.Interfaces;
 
-namespace ConsoleApp2.RepositoryLayer
+namespace MongoDBRepository.RepositoryLayer.Base
 {
     public abstract class Repository<T> : IRepository<T>
     {
