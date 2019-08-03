@@ -1,5 +1,6 @@
 ﻿using System;
 using MongoDB.Driver;
+using MontoDBRepository.Domain;
 using MontoDBRepository.RepositoryLayer;
 
 namespace MontoDBRepository

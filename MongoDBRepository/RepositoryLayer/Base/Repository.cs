@@ -1,7 +1,9 @@
 ﻿using System.Collections.Generic;
 using MongoDB.Driver;
+using MontoDBRepository.RepositoryLayer.Context;
+using MontoDBRepository.RepositoryLayer.Interfaces;
 
-namespace MontoDBRepository.RepositoryLayer
+namespace MontoDBRepository.RepositoryLayer.Base
 {
     public abstract class Repository<T> : IRepository<T>
     {

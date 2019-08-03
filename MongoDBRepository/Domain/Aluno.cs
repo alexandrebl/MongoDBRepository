@@ -1,6 +1,6 @@
 ﻿using MongoDB.Bson.Serialization.Attributes;
 
-namespace MontoDBRepository
+namespace MontoDBRepository.Domain
 {
     [BsonIgnoreExtraElements]
     public sealed class Aluno
